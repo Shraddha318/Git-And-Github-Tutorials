@@ -1,9 +1,31 @@
-Git and Github are different
-Git is a software and Github are services
+Git and Github are different.
+Git is a software tool installed locally on your computer. It is a distributed version control system (DVCS) that
+helps track changes made to files, manage different versions, and collaborate effectively. Git works locally on
+your system and doesn't require an internet connection for most operations.
 
-Git is a version control system.It track files for changes
+GitHub, on the other hand, is a cloud-based hosting service for Git repositories. It provides an online platform
+to store repositories remotely, collaborate with others, review code, manage issues, and host your projects
+publicly or privately.
 
 
 => Repo
-- Git on system vs tracking
-1. git --version
+- Git on System vs Tracking:
+1. git --version: Checks the installed version of Git on your local machine.
+2. git status: Displays the current status of your repository, showing staged, unstaged, and untracked files.
+3. git init: Initializes a new Git repository in your project directory (this command is used only once per project).
+4. .git: A hidden folder created by git init, which stores all the history and metadata related to file changes within your repository
+
+=> Commit
+1. git init:create file or files
+2. git add file1 file2
+3. git status: Check staged files
+4. git commit -m "add file"
+5. git log : View detailed commit history
+6. git log --oneline : For concise commit history
+
+
+
+
+
+
+
