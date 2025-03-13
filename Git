@@ -49,3 +49,24 @@ Git and GitHub are different:
 1. `git branch`: List branches.
 2. `git branch nav`: Create a new branch named "nav".
 3. `git checkout nav`: Switch to the branch named "nav".
+
+---
+
+=> Merging
+1. git merge branch_name: Merges the specified branch into the current branch.
+2. git branch -d branch_name: Deletes the given branch.
+
+---
+
+=> Diff and Stashing
+1. git diff: Compares changes in the same file before staging.
+2. git stash: Stashes your uncommitted changes to temporarily switch branches.
+3. git stash pop: Restores stashed changes and removes them from the stash list.
+
+---
+
+=> Additional Commands
+1. git checkout<Hash>: Checks out a specific commit using its hash value.
+2. git switch main: Switches to the `main` branch.
+3. git restore filename : Restores the specified file to its last committed state.
+4. git reflog :Shows a log of all the references (branches, commits) you’ve interacted with.
